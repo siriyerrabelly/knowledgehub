@@ -1,0 +1,29 @@
+.sidebar{
+position:fixed;
+top:70px;
+left:0;
+width:220px;
+height:100%;
+background:#f3f4f6;
+padding:20px;
+display:flex;
+flex-direction:column;
+gap:10px;
+}
+
+.sidebar a{
+text-decoration:none;
+color:#111;
+padding:8px;
+border-radius:5px;
+}
+
+.sidebar a:hover{
+background:#ddd;
+}
+.sidebar{
+width:220px;
+position:fixed;
+left:0;
+top:70px;
+}

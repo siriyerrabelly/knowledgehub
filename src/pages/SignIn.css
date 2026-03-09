@@ -1,0 +1,54 @@
+.signin-container{
+margin-left:220px;
+margin-top:100px;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.signin-box{
+background:#ffffff;
+padding:30px;
+border-radius:10px;
+width:320px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+text-align:center;
+}
+
+.signin-box h2{
+margin-bottom:20px;
+}
+
+.signin-box input{
+width:100%;
+padding:10px;
+margin-bottom:15px;
+border:1px solid #ccc;
+border-radius:5px;
+font-size:14px;
+}
+
+.signin-box button{
+width:100%;
+padding:10px;
+background:#2563eb;
+color:white;
+border:none;
+border-radius:5px;
+cursor:pointer;
+font-size:16px;
+}
+
+.signin-box button:hover{
+background:#1d4ed8;
+}
+
+.signin-link{
+margin-top:10px;
+font-size:14px;
+}
+
+.signin-link a{
+color:#2563eb;
+text-decoration:none;
+}
