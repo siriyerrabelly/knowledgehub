@@ -13,7 +13,7 @@ function App(){
 return(
 
 <BrowserRouter>
-<BrowserRouter basename="/"></BrowserRouter>
+<BrowserRouter basename="/knowledgehub/"></BrowserRouter>
 <Routes>
 
 <Route path="/signin" element={<SignIn/>}/>
